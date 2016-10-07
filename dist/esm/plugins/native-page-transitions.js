@@ -35,7 +35,7 @@ import { Plugin, Cordova } from './plugin';
 export var NativePageTransitions = (function () {
     function NativePageTransitions() {
     }
-    NativePageTransitions.executePendingTransitions = function () { return; };
+    NativePageTransitions.executePendingTransition = function () { return; };
     /**
      * Perform a slide animation
      * @param options {TransitionOptions} Options for the transition
@@ -63,7 +63,7 @@ export var NativePageTransitions = (function () {
     NativePageTransitions.curl = function (options) { return; };
     __decorate([
         Cordova()
-    ], NativePageTransitions, "executePendingTransitions", null);
+    ], NativePageTransitions, "executePendingTransition", null);
     __decorate([
         Cordova()
     ], NativePageTransitions, "slide", null);

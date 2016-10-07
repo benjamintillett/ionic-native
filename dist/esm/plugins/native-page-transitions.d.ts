@@ -26,7 +26,7 @@
  * ```
  */
 export declare class NativePageTransitions {
-    static executePendingTransitions(): Promise<any>;
+    static executePendingTransition(): Promise<any>;
     /**
      * Perform a slide animation
      * @param options {TransitionOptions} Options for the transition
