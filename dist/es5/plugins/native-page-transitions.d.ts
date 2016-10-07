@@ -61,6 +61,6 @@ export interface TransitionOptions {
     iosdelay?: number;
     androiddelay?: number;
     winphonedelay?: number;
-    fixedPixelsTops?: number;
+    fixedPixelsTop?: number;
     fixedPixelsBottom?: number;
 }
