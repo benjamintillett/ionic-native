@@ -35,7 +35,7 @@ import { Plugin, Cordova } from './plugin';
 export class NativePageTransitions {
 
   @Cordova()
-  static executePendingTransitions(): Promise<any> { return; }
+  static executePendingTransition(): Promise<any> { return; }
   /**
    * Perform a slide animation
    * @param options {TransitionOptions} Options for the transition
